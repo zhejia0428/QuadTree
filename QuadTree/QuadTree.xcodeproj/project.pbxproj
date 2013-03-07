@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED98BD2316E1BB1A00D914E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED98BD2216E1BB1A00D914E9 /* UIKit.framework */; };
+		ED98BD2516E1BB1B00D914E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED98BD2416E1BB1A00D914E9 /* Foundation.framework */; };
+		ED98BD2716E1BB1B00D914E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED98BD2616E1BB1B00D914E9 /* CoreGraphics.framework */; };
+		ED98BD2D16E1BB1B00D914E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED98BD2B16E1BB1B00D914E9 /* InfoPlist.strings */; };
+		ED98BD2F16E1BB1B00D914E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED98BD2E16E1BB1B00D914E9 /* main.m */; };
+		ED98BD3316E1BB1B00D914E9 /* TestbedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED98BD3216E1BB1B00D914E9 /* TestbedAppDelegate.m */; };
+		ED98BD3516E1BB1B00D914E9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ED98BD3416E1BB1B00D914E9 /* Default.png */; };
+		ED98BD3716E1BB1B00D914E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED98BD3616E1BB1B00D914E9 /* Default@2x.png */; };
+		ED98BD3916E1BB1B00D914E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED98BD3816E1BB1B00D914E9 /* Default-568h@2x.png */; };
+		ED98BD3C16E1BB1B00D914E9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED98BD3A16E1BB1B00D914E9 /* MainStoryboard_iPhone.storyboard */; };
+		ED98BD3F16E1BB1B00D914E9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED98BD3D16E1BB1B00D914E9 /* MainStoryboard_iPad.storyboard */; };
+		ED98BD4216E1BB1B00D914E9 /* TestbedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED98BD4116E1BB1B00D914E9 /* TestbedViewController.m */; };
+		ED98BD4B16E1BD3F00D914E9 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = ED98BD4A16E1BD3F00D914E9 /* Node.m */; };
+		ED98BD4E16E1C1E500D914E9 /* QuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = ED98BD4D16E1C1E500D914E9 /* QuadTree.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED96953916E8460E001DAC11 /* NSArray+Extras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extras.h"; sourceTree = "<group>"; };
+		ED96953A16E8460E001DAC11 /* NSArray+Extras.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extras.m"; sourceTree = "<group>"; };
+		ED98BD1F16E1BB1A00D914E9 /* QuadTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuadTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED98BD2216E1BB1A00D914E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED98BD2416E1BB1A00D914E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED98BD2616E1BB1B00D914E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED98BD2A16E1BB1B00D914E9 /* QuadTree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuadTree-Info.plist"; sourceTree = "<group>"; };
+		ED98BD2C16E1BB1B00D914E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED98BD2E16E1BB1B00D914E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED98BD3016E1BB1B00D914E9 /* QuadTree-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuadTree-Prefix.pch"; sourceTree = "<group>"; };
+		ED98BD3116E1BB1B00D914E9 /* TestbedAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestbedAppDelegate.h; sourceTree = "<group>"; };
+		ED98BD3216E1BB1B00D914E9 /* TestbedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestbedAppDelegate.m; sourceTree = "<group>"; };
+		ED98BD3416E1BB1B00D914E9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ED98BD3616E1BB1B00D914E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ED98BD3816E1BB1B00D914E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ED98BD3B16E1BB1B00D914E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		ED98BD3E16E1BB1B00D914E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		ED98BD4016E1BB1B00D914E9 /* TestbedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestbedViewController.h; sourceTree = "<group>"; };
+		ED98BD4116E1BB1B00D914E9 /* TestbedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestbedViewController.m; sourceTree = "<group>"; };
+		ED98BD4916E1BD3F00D914E9 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		ED98BD4A16E1BD3F00D914E9 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		ED98BD4C16E1C1E500D914E9 /* QuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadTree.h; sourceTree = "<group>"; };
+		ED98BD4D16E1C1E500D914E9 /* QuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadTree.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED98BD1C16E1BB1A00D914E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED98BD2316E1BB1A00D914E9 /* UIKit.framework in Frameworks */,
+				ED98BD2516E1BB1B00D914E9 /* Foundation.framework in Frameworks */,
+				ED98BD2716E1BB1B00D914E9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED96953816E845ED001DAC11 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ED96953916E8460E001DAC11 /* NSArray+Extras.h */,
+				ED96953A16E8460E001DAC11 /* NSArray+Extras.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		ED98BD1616E1BB1A00D914E9 = {
+			isa = PBXGroup;
+			children = (
+				ED98BD2816E1BB1B00D914E9 /* QuadTree */,
+				ED98BD2116E1BB1A00D914E9 /* Frameworks */,
+				ED98BD2016E1BB1A00D914E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED98BD2016E1BB1A00D914E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED98BD1F16E1BB1A00D914E9 /* QuadTree.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED98BD2116E1BB1A00D914E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED98BD2216E1BB1A00D914E9 /* UIKit.framework */,
+				ED98BD2416E1BB1A00D914E9 /* Foundation.framework */,
+				ED98BD2616E1BB1B00D914E9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED98BD2816E1BB1B00D914E9 /* QuadTree */ = {
+			isa = PBXGroup;
+			children = (
+				ED96953816E845ED001DAC11 /* Helper */,
+				ED98BD4816E1BD1B00D914E9 /* QuadTreeModel */,
+				ED98BD3116E1BB1B00D914E9 /* TestbedAppDelegate.h */,
+				ED98BD3216E1BB1B00D914E9 /* TestbedAppDelegate.m */,
+				ED98BD3A16E1BB1B00D914E9 /* MainStoryboard_iPhone.storyboard */,
+				ED98BD3D16E1BB1B00D914E9 /* MainStoryboard_iPad.storyboard */,
+				ED98BD4016E1BB1B00D914E9 /* TestbedViewController.h */,
+				ED98BD4116E1BB1B00D914E9 /* TestbedViewController.m */,
+				ED98BD2916E1BB1B00D914E9 /* Supporting Files */,
+			);
+			path = QuadTree;
+			sourceTree = "<group>";
+		};
+		ED98BD2916E1BB1B00D914E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED98BD2A16E1BB1B00D914E9 /* QuadTree-Info.plist */,
+				ED98BD2B16E1BB1B00D914E9 /* InfoPlist.strings */,
+				ED98BD2E16E1BB1B00D914E9 /* main.m */,
+				ED98BD3016E1BB1B00D914E9 /* QuadTree-Prefix.pch */,
+				ED98BD3416E1BB1B00D914E9 /* Default.png */,
+				ED98BD3616E1BB1B00D914E9 /* Default@2x.png */,
+				ED98BD3816E1BB1B00D914E9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED98BD4816E1BD1B00D914E9 /* QuadTreeModel */ = {
+			isa = PBXGroup;
+			children = (
+				ED98BD4916E1BD3F00D914E9 /* Node.h */,
+				ED98BD4A16E1BD3F00D914E9 /* Node.m */,
+				ED98BD4C16E1C1E500D914E9 /* QuadTree.h */,
+				ED98BD4D16E1C1E500D914E9 /* QuadTree.m */,
+			);
+			name = QuadTreeModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED98BD1E16E1BB1A00D914E9 /* QuadTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED98BD4516E1BB1B00D914E9 /* Build configuration list for PBXNativeTarget "QuadTree" */;
+			buildPhases = (
+				ED98BD1B16E1BB1A00D914E9 /* Sources */,
+				ED98BD1C16E1BB1A00D914E9 /* Frameworks */,
+				ED98BD1D16E1BB1A00D914E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuadTree;
+			productName = QuadTree;
+			productReference = ED98BD1F16E1BB1A00D914E9 /* QuadTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED98BD1716E1BB1A00D914E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Testbed;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Zhe Jia";
+			};
+			buildConfigurationList = ED98BD1A16E1BB1A00D914E9 /* Build configuration list for PBXProject "QuadTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED98BD1616E1BB1A00D914E9;
+			productRefGroup = ED98BD2016E1BB1A00D914E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED98BD1E16E1BB1A00D914E9 /* QuadTree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED98BD1D16E1BB1A00D914E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED98BD2D16E1BB1B00D914E9 /* InfoPlist.strings in Resources */,
+				ED98BD3516E1BB1B00D914E9 /* Default.png in Resources */,
+				ED98BD3716E1BB1B00D914E9 /* Default@2x.png in Resources */,
+				ED98BD3916E1BB1B00D914E9 /* Default-568h@2x.png in Resources */,
+				ED98BD3C16E1BB1B00D914E9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				ED98BD3F16E1BB1B00D914E9 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED98BD1B16E1BB1A00D914E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED98BD2F16E1BB1B00D914E9 /* main.m in Sources */,
+				ED98BD3316E1BB1B00D914E9 /* TestbedAppDelegate.m in Sources */,
+				ED98BD4216E1BB1B00D914E9 /* TestbedViewController.m in Sources */,
+				ED98BD4B16E1BD3F00D914E9 /* Node.m in Sources */,
+				ED98BD4E16E1C1E500D914E9 /* QuadTree.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED98BD2B16E1BB1B00D914E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED98BD2C16E1BB1B00D914E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED98BD3A16E1BB1B00D914E9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED98BD3B16E1BB1B00D914E9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		ED98BD3D16E1BB1B00D914E9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED98BD3E16E1BB1B00D914E9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED98BD4316E1BB1B00D914E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED98BD4416E1BB1B00D914E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED98BD4616E1BB1B00D914E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuadTree/QuadTree-Prefix.pch";
+				INFOPLIST_FILE = "QuadTree/QuadTree-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED98BD4716E1BB1B00D914E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuadTree/QuadTree-Prefix.pch";
+				INFOPLIST_FILE = "QuadTree/QuadTree-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED98BD1A16E1BB1A00D914E9 /* Build configuration list for PBXProject "QuadTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED98BD4316E1BB1B00D914E9 /* Debug */,
+				ED98BD4416E1BB1B00D914E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED98BD4516E1BB1B00D914E9 /* Build configuration list for PBXNativeTarget "QuadTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED98BD4616E1BB1B00D914E9 /* Debug */,
+				ED98BD4716E1BB1B00D914E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED98BD1716E1BB1A00D914E9 /* Project object */;
+}
